@@ -3,6 +3,14 @@
 @import "fonts";
 @import "general";
 
+.main {
+  max-height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 // BEGIN HEADER
 .header {
   background-size: cover;
@@ -79,9 +87,9 @@
     315deg,
     transparent 0%,
     transparent 30%,
-    #cfc353 40%,
-    #cfc353 50%,
-    #cfc353 60%,
+    #f8ee91 40%,
+    #f5e65c 50%,
+    #f7e64e 60%,
     transparent 70%,
     transparent 100%
   );
@@ -361,7 +369,8 @@
 // BEGIN PROJECTS
 .projects {
   width: 100%;
-  min-height: 100%;
+  height: 100vh;
+  overflow: hidden;
   transform: translateX(100%) scale(0.8, 0.8);
   position: absolute;
   top: 0;
@@ -369,6 +378,12 @@
   background-color: #fefefe;
   background-color: #2c2d2f;
   padding: 30px 0;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    /* chrome based */
+    width: 0px; /* ширина scrollbar'a */
+    background: transparent; /* опционально */
+  }
 }
 .projects__title {
   font-family: "Montserrat", sans-serif;
