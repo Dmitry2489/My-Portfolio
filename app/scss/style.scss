@@ -21,6 +21,7 @@
   overflow: hidden;
   transform: scale(1, 1) translateX(0);
   transition: ease-in 1s;
+  background-color: #2c2d2f;
 }
 
 .header__parallax-background {
@@ -29,6 +30,7 @@
   position: absolute;
   top: -5%;
   left: -5%;
+
   // background: url(../img/background-headr.png) center no-repeat;
   background-position: center;
   background-repeat: no-repeat;
