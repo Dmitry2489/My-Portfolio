@@ -1,0 +1,43 @@
+@import "vars";
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  background: #4d4d4d;
+  font-size: 16px;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: $withe-color;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
