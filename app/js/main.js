@@ -5,11 +5,14 @@ const blockProject = document.querySelector(".projects");
 const blockHeader = document.querySelector(".header");
 const blockBio = document.querySelector(".bio");
 const btnMyWork = document.querySelector(".btn__my-work button");
+const btnMyContact = document.querySelector(".btn__my-contact button");
+const blockContact = document.querySelector(".contact");
 
 // Hang the event on the buttons
 buttonBiography.addEventListener("click", onButtonBiographyClick);
 buttonProject.addEventListener("click", onButtonProjectClick);
 btnMyWork.addEventListener("click", onButtonMyWorkClick);
+btnMyContact.addEventListener("click", onButtonMyContactClick);
 
 function onButtonBiographyClick() {
   blockHeader.classList.add("rotateSliderOutToRight");
@@ -46,6 +49,11 @@ function onButtonMyWorkClick() {
   blockBio.classList.add("rotateFall");
   blockProject.classList.remove("rotateSliderInFromRight");
   blockProject.classList.add("scaleUp");
+}
+function onButtonMyContactClick() {
+  blockProject.classList.remove("rotateSliderInFromRight");
+  blockProject.classList.add("rotateFall");
+  blockContact.classList.add("scaleUp");
 }
 function parallax(event) {
   const parallaxSelector = document.querySelector(

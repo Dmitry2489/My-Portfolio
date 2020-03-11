@@ -547,6 +547,10 @@
   }
 }
 // Hover effect cart end
+.btn__my-contact {
+  text-align: center;
+  margin-top: 20px;
+}
 .projects__btn-back {
   position: fixed;
   right: -20px;
@@ -567,6 +571,70 @@
   font-family: "Oxygen", sans-serif;
   letter-spacing: 0.1em;
 }
+// BEGIN CONTACT
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2c2d2f;
+  color: #ffffff;
+  transform: translateY(-100%);
+  transition: ease 3s;
+}
+.contact__title {
+  h3 {
+    position: relative;
+    font-size: 70px;
+    line-height: 90px;
+    display: block;
+    text-transform: uppercase;
+    color: #cfc353;
+    span {
+      position: absolute;
+      bottom: -34px;
+      left: 4px;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 300;
+    }
+  }
+}
+.contact__wrapper {
+  ul {
+    margin: 20px 0 0 30px;
+    li {
+      a {
+        font-size: 24px;
+        line-height: 1.75;
+        font-weight: 500;
+        i {
+          margin-right: 10px;
+        }
+        &:hover {
+          color: #cfc353;
+        }
+      }
+    }
+  }
+  .contact__social {
+    display: flex;
+    justify-content: center;
+    li + li {
+      margin-left: 20px;
+    }
+    li {
+      a {
+        font-size: 32px;
+      }
+    }
+  }
+}
+// END CONTACT
 // Animation when you click on the biography and project buttons
 .rotateSliderOutToLeft {
   animation: rotateSliderOutToLeft 1s ease-in forwards;
