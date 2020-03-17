@@ -52,6 +52,7 @@ function onButtonMyWorkClick() {
 }
 function onButtonMyContactClick() {
   blockProject.classList.remove("rotateSliderInFromRight");
+  blockProject.classList.remove("scaleUp");
   blockProject.classList.add("rotateFall");
   blockContact.classList.add("scaleUp");
 }

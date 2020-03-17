@@ -3,14 +3,17 @@
     width: 90%;
   }
 }
+
 @media (max-width: 740px) {
   .header__logo__text {
     font-size: 80px;
     padding: 30px 25px;
   }
+
   .header__title {
     font-size: 82px;
   }
+
   .header__text {
     font-size: 28px;
   }
@@ -21,214 +24,284 @@
     font-size: 65px;
     padding: 26px 21px;
   }
+
   .header__title {
     font-size: 70px;
     line-height: 80px;
   }
+
   .header__text {
     font-size: 22px;
   }
+
   .header__logo {
     padding: 0 0 50px 0;
   }
+
   .header__button {
     font-size: 14px;
   }
+
   .about__info-inner {
     p {
       font-size: 14px;
     }
   }
+
   .bio__aside {
     max-width: 220px;
   }
 }
+
 @media (max-width: 520px) {
   .header__logo__text {
     font-size: 55px;
     padding: 21px 16px;
   }
+
   .header__title {
     font-size: 60px;
     line-height: 70px;
   }
+
   .header__text {
     font-size: 18px;
     margin-top: 20px;
   }
+
   .header__logo {
     padding: 0 0 50px 0;
   }
+
   .header__button-inner {
     margin-top: 40px;
   }
+
   .header__button {
     font-size: 12px;
     min-width: 100px;
     height: 40px;
     margin: 10px 20px 40px 20px;
   }
+
   .bio__aside {
     max-width: 200px;
   }
+
   .bio__image-container {
     h2 {
       font-size: 16px;
     }
   }
+
   .about__title h2 {
     font-size: 32px;
   }
 }
+
 @media (max-width: 480px) {
   .header__title {
     font-size: 54px;
   }
+
   .header__logo__text {
     font-size: 50px;
     padding: 21px 16px;
   }
+
   .header__button {
     font-size: 12px;
     min-width: 90px;
     height: 40px;
     margin: 10px 15px 40px 15px;
   }
+
   .about__info-inner p {
     font-size: 12px;
   }
+
   .bio__image-container h2 {
     font-size: 14px;
   }
+
   .bio__about-info h3 {
     font-size: 14px;
   }
+
   .bio__about-info ul li {
     font-size: 12px;
     line-height: 30px;
   }
+
   .bio__aside {
     max-width: 180px;
   }
+
   .btn__my-work button {
     padding: 12px 20px;
     font-size: 10px;
   }
+
   .about__info-inner p span::after {
     right: -9px;
   }
+
   .projects__btn-back a {
     width: 62px;
     height: 30px;
     font-size: 14px;
   }
+
   .about__title {
     margin: 35px 0;
   }
-  .bio__about-info ul span + span {
+
+  .bio__about-info ul span+span {
     font-size: 10px;
   }
 }
+
 @media (max-width: 410px) {
   .header__title {
     font-size: 50px;
   }
+
   .header__logo__text {
     font-size: 45px;
     padding: 21px 16px;
   }
+
   .bio__about-info ul li {
     font-size: 10px;
     line-height: 30px;
   }
+
   .bio__aside {
     max-width: 160px;
   }
+
   .about__info-inner p {
     font-size: 10px;
   }
+
   .about__info-inner p span::after {
     right: -7px;
   }
+
   .about__info-inner h3 {
     font-size: 18px;
   }
+
   .bio__about-info h3 {
     font-size: 13px;
   }
+
   .projects__cart-inner {
     width: 360px;
     min-height: 200px;
   }
+
   .projects__cart-inner:hover .mask-2 {
     transform: rotate(-31deg) translateY(-11.4px);
   }
+
   .content {
     width: 105%;
     right: -1px;
   }
+
   .projects__cart-inner {
     width: 288px;
   }
+
   .projects__cart-inner:hover .mask-1 {
     transform: rotate(-35deg) translateY(0.2px);
   }
+
   .projects__cart-inner:hover .mask-2 {
     transform: rotate(-35deg) translateY(-1.4px);
   }
+
   .projects__cart-inner:hover .content {
     width: 101%;
     left: -1px;
   }
+
   .content h2 {
     margin: 10px 0 0 0;
     font-size: 14px;
     padding: 7px;
   }
+
   .content {
     p {
       font-size: 10px;
     }
   }
+
   .btn__link-work {
     font-size: 10px;
   }
+
   .projects__btn-back {
     bottom: 80px;
   }
+
+  .contact__wrapper ul li a {
+    font-size: 22px;
+  }
+
+  .contact__title h3 {
+    font-size: 68px;
+  }
+
+  .contact__title h3 span {
+    font-size: 14px;
+  }
 }
+
 @media (max-width: 330px) {
   .header__title {
     font-size: 40px;
   }
+
   .header__logo__text {
     font-size: 50px;
     padding: 21px 16px;
   }
+
   .about__title h2 {
     font-size: 27px;
   }
+
   .about__info-inner h3 {
     font-size: 14px;
   }
+
   .bio__aside {
     max-width: 140px;
   }
+
   .bio__image-container h2 {
     font-size: 12px;
   }
+
   .about__info-inner p {
     font-size: 8px;
   }
+
   .bio__about-info h3 {
     font-size: 11px;
   }
+
   .about__title {
     margin: 20px 0;
   }
+
   .bio__image-container {
     height: 164px;
   }
+
   .copy {
     p {
       font-size: 10px;

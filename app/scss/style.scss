@@ -23,14 +23,12 @@
   transition: ease-in 1s;
   background-color: #2c2d2f;
 }
-
 .header__parallax-background {
   height: 105%;
   width: 105%;
   position: absolute;
   top: -5%;
   left: -5%;
-
   // background: url(../img/background-headr.png) center no-repeat;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,18 +119,18 @@
     background-position: 100px;
   }
 }
-.animated-link.active,
-.animated-link:hover {
-  background-color: transparent;
-  animation: none;
-}
-.header__button:hover {
-  animation: none;
-}
-.animated-link--slowly {
-  animation: light 4s ease 2s infinite;
-  -webkit-animation: light 4s ease 2s infinite;
-}
+// .animated-link.active,
+// .animated-link:hover {
+//   background-color: transparent;
+//   animation: none;
+// }
+// .header__button:hover {
+//   animation: none;
+// }
+// .animated-link--slowly {
+//   animation: light 4s ease 2s infinite;
+//   -webkit-animation: light 4s ease 2s infinite;
+// }
 //END HEADER
 //BEGIN BIO
 .bio {
@@ -584,9 +582,10 @@
   background-color: #2c2d2f;
   color: #ffffff;
   transform: translateY(-100%);
-  transition: ease 3s;
+  opacity: 1;
 }
 .contact__title {
+  background-color: #2c2d2f;
   h3 {
     position: relative;
     font-size: 70px;
@@ -721,7 +720,7 @@
   animation: scaleUp 0.5s ease-in forwards;
   transform: scale(0.9, 0.9) translateX(0);
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 @keyframes scaleUp {
   from {
