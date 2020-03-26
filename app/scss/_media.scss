@@ -4,6 +4,12 @@
   }
 }
 
+@media (max-width: 770px) {
+  .preloader__wrapper-logo {
+    width: 28%;
+  }
+}
+
 @media (max-width: 740px) {
   .header__logo__text {
     font-size: 80px;
@@ -102,6 +108,10 @@
 @media (max-width: 480px) {
   .header__title {
     font-size: 54px;
+  }
+
+  .preloader__wrapper-logo {
+    width: 52%;
   }
 
   .header__logo__text {

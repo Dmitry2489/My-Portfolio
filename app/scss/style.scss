@@ -32,7 +32,7 @@
   height: 100%;
   width: 0;
   background-color: #f7e64e;
-  animation: preloader-line ease-in 4s forwards;
+  animation: preloader-line ease-in 5s forwards;
 }
 
 @keyframes preloader-line {
@@ -55,7 +55,7 @@
   align-items: center;
   display: flex;
   opacity: 0;
-  animation: logo ease-in 2s forwards 0.5s;
+  animation: logo ease-in 3s forwards 1s;
 
   img {
     width: 100%;
