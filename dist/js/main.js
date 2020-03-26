@@ -1,3 +1,4 @@
+'use strict';
 //find the item
 const buttonBiography = document.querySelector("#button-biography");
 const buttonProject = document.querySelector("#button-projects");
@@ -7,6 +8,26 @@ const blockBio = document.querySelector(".bio");
 const btnMyWork = document.querySelector(".btn__my-work button");
 const btnMyContact = document.querySelector(".btn__my-contact button");
 const blockContact = document.querySelector(".contact");
+const preloaderBlock = document.querySelector('.preloader');
+const headerLogo = document.querySelector('.header__logo');
+const headerTitle = document.querySelector('.header__title');
+const headerText = document.querySelector('.header__text');
+const headerBtn = document.querySelector('.header__button-inner');
+const headerParallax = document.querySelector('.header__parallax-background');
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  window.setTimeout(() => {
+    preloaderBlock.classList.add('preloader__hide');
+    headerParallax.classList.add('lup-parallax');
+  }, 4000);
+  window.setTimeout(() => {
+    headerLogo.style.display = 'flex';
+    headerTitle.style.display = 'block';
+    headerText.style.display = 'block';
+    headerBtn.style.display = 'flex';
+  }, 3000);
+});
 
 // Hang the event on the buttons
 buttonBiography.addEventListener("click", onButtonBiographyClick);
@@ -50,12 +71,14 @@ function onButtonMyWorkClick() {
   blockProject.classList.remove("rotateSliderInFromRight");
   blockProject.classList.add("scaleUp");
 }
+
 function onButtonMyContactClick() {
   blockProject.classList.remove("rotateSliderInFromRight");
   blockProject.classList.remove("scaleUp");
   blockProject.classList.add("rotateFall");
   blockContact.classList.add("scaleUp");
 }
+
 function parallax(event) {
   const parallaxSelector = document.querySelector(
     ".header__parallax-background"
