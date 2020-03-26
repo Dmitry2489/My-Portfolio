@@ -16,7 +16,7 @@ const headerBtn = document.querySelector('.header__button-inner');
 const headerParallax = document.querySelector('.header__parallax-background');
 
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
   window.setTimeout(() => {
     preloaderBlock.classList.add('preloader__hide');
     headerParallax.classList.add('lup-parallax');
