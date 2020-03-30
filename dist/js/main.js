@@ -15,7 +15,12 @@ const headerText = document.querySelector('.header__text');
 const headerBtn = document.querySelector('.header__button-inner');
 const headerParallax = document.querySelector('.header__parallax-background');
 
+// window.onload = function () {
+//   alert('Страница загружена');
 
+//   // к этому моменту страница загружена
+//   alert(`Image size: ${img.offsetWidth}x${img.offsetHeight}`);
+// };
 window.addEventListener('load', () => {
   window.setTimeout(() => {
     preloaderBlock.classList.add('preloader__hide');
