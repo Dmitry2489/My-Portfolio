@@ -20,7 +20,7 @@
     "normalize.css": "^8.0.1"
   },
   "dependencies": {
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "simplebar": "^5.1.0",
     "slick-carousel": "^1.8.1"
   }
